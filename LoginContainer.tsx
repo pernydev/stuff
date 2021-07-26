@@ -118,6 +118,7 @@ const LoginContainer = ({ history }: RouteComponentProps) => {
                         >
                             Password reset
                         </Link>
+                        <p> </p>
                             <a css={tw`text-xs text-neutral-500 tracking-wide no-underline uppercase hover:text-neutral-600`} href="/auth/register">Register</a>
                     </div>
                 </LoginFormContainer>
