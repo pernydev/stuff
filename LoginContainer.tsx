@@ -120,10 +120,10 @@ const LoginContainer = ({ history }: RouteComponentProps) => {
                         </Link>
                      <p> </p>
                         <Link
-                            to={'/auth/register'}
+                            to={'/'}
                             css={tw`text-xs text-neutral-500 tracking-wide no-underline uppercase hover:text-neutral-600`}
                         >
-                            Register
+                            <a href="/auth/register">Register</a>
                         </Link>
                     </div>
                 </LoginFormContainer>
